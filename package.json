@@ -1,0 +1,26 @@
+{
+  "name": "interactive-map",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tmin10/interactive-map.git"
+  },
+  "author": "Tmin10",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  },
+  "dependencies": {
+    "csv-parse": "^2.0.2",
+    "express": "^4.16.2",
+    "leaflet": "^1.3.1",
+    "moment": "^2.20.1",
+    "mongoose": "^5.0.4"
+  }
+}
